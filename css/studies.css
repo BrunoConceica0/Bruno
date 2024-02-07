@@ -1,0 +1,38 @@
+.studies-boxs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 35px;
+}
+.studies-box {
+  display: block;
+  background: var(--cor-8);
+  padding: 0 35px 40px 35px;
+  border-radius: 15px;
+  margin-bottom: 70px;
+  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.6);
+}
+.studies-container h2 {
+  margin-bottom: 120px;
+}
+.studies-container h2::before {
+  content: "";
+  display: inline-block;
+  background: url("../img/detalhe.svg") no-repeat;
+  width: 24px;
+  height: 41px;
+  margin-right: 10px;
+}
+.studies-boxs ul {
+  display: flex;
+  justify-content: space-between;
+}
+.studies-boxs li {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: -50px;
+}
+.studies-boxs img {
+  width: 100%;
+  max-height: 100%;
+}

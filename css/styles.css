@@ -1,0 +1,9 @@
+/* estilos */
+@import url("./hearder.css");
+@import url("./global.css");
+@import url("./about-me.css");
+@import url("./studies.css");
+
+/* ferramentas */
+@import url("./utilidades/cores.css");
+@import url("./utilidades/tipografia.css");

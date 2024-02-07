@@ -1,0 +1,34 @@
+:root {
+  --cor-background: #1a1a1a;
+  --cor-destaque-1: #df8223;
+  --cor-destaque-2: #c7265b;
+  --cor-titulo: #f7f7f7;
+  --cor-subtitulo: #e6e6e6;
+  /* paleta de cores  */
+  --cor-1: #f2e6d9;
+  --cor-2: #ecb379;
+  --cor-3: #de7f23;
+  --cor-4: #df823c;
+  --cor-5: #de4323;
+  --cor-6: #9c5a17;
+  --cor-7: #59330d;
+  --cor-8: #151312;
+}
+.cor-t {
+  color: #d4d4d4;
+}
+.cor-8 {
+  color: var(--cor-8);
+}
+.cor-t {
+  color: var(--cor-titulo);
+}
+.liner {
+  background-image: linear-gradient(
+    var(--cor-destaque-1),
+    var(--cor-destaque-2)
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}

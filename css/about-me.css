@@ -1,0 +1,38 @@
+.about__me-container {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  position: relative;
+  padding-top: 120px;
+  & > .about__me-box h2 {
+    display: flex;
+    margin-bottom: 90px;
+    align-items: center;
+  }
+  & > .about__me-box p {
+    margin-bottom: 50px;
+  }
+}
+/* .img-foto::after {
+  content: "oie";
+  display: block;
+  background: url("../img/detalhe-foto.svg"), no-repeat;
+  width: 421px;
+  height: 232px;
+  margin-left: 60px;
+  position: absolute;
+} */
+.about__me-container h2::before {
+  content: "";
+  display: inline-block;
+  background: url("../img/detalhe.svg") no-repeat;
+  width: 24px;
+  height: 41px;
+  margin-right: 10px;
+}
+.img-foto {
+  position: relative;
+  height: 943px;
+  width: 531px;
+  object-fit: cover;
+  position: center;
+}
