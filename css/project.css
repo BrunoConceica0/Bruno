@@ -1,0 +1,69 @@
+.project-box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 35px;
+
+  position: relative;
+
+  & > .project-boxs {
+    display: flex;
+    flex-direction: column;
+    background: var(--cor-8);
+    border-radius: 15px;
+    box-shadow: 0px 1px 2px 0 rgba(0, 0, 0, 0.6);
+
+    & > .project-inf {
+      padding: 15px 35px;
+    }
+  }
+}
+
+#project h2::before {
+  content: "";
+  display: inline-block;
+  background: url("../img/icon/detalhe.svg") no-repeat;
+  width: 26px;
+  height: 41px;
+  margin-right: 10px;
+}
+.project-boxs span {
+  display: inline-block;
+  margin: 30px 0;
+  text-align: center;
+}
+.project-site img {
+  border-radius: 15px 15px 0 0;
+  height: auto;
+}
+.project-site {
+  height: auto;
+}
+.project-mobile {
+  position: absolute;
+  top: 0;
+  object-fit: cover;
+  object-position: center;
+}
+.project-links ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.project-links li a {
+  display: inline-block;
+  margin-top: 35px;
+}
+.project-inf::before {
+  content: "";
+  display: block;
+  max-width: 100%;
+  position: absolute;
+  top: 0;
+}
+.project-site img:last-child::before {
+  content: "";
+  display: block;
+  background: url("../img/projetos/animais-mobile.png") no-repeat;
+  width: 1409px;
+  height: 299px;
+}

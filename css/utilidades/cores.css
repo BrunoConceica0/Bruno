@@ -1,10 +1,12 @@
 :root {
   --cor-background: #1a1a1a;
-  --cor-destaque-1: #df8223;
-  --cor-destaque-2: #c7265b;
+  --cor-detaque-1: #df8223;
+  --cor-detaque-2: #c7265b;
   --cor-titulo: #f7f7f7;
   --cor-subtitulo: #e6e6e6;
+  --cor-fucos: #d4d4d4;
   /* paleta de cores  */
+  --cor-0: #f7f7f7;
   --cor-1: #f2e6d9;
   --cor-2: #ecb379;
   --cor-3: #de7f23;
@@ -20,15 +22,13 @@
 .cor-8 {
   color: var(--cor-8);
 }
-.cor-t {
-  color: var(--cor-titulo);
-}
+
 .liner {
-  background-image: linear-gradient(
-    var(--cor-destaque-1),
-    var(--cor-destaque-2)
-  );
+  background-image: linear-gradient(var(--cor-detaque-1), var(--cor-detaque-2));
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+}
+.cor-3 {
+  color: var(--cor-3);
 }

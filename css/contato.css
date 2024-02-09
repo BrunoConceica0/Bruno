@@ -1,0 +1,48 @@
+#contact h2::before {
+  content: "";
+  display: inline-block;
+  background: url("../img/icon/detalhe.svg") no-repeat;
+  width: 26px;
+  height: 41px;
+  margin-right: 10px;
+}
+.form {
+  padding: 120px 0 150px 0;
+}
+.field {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.field label {
+  display: block;
+  font: 600 1.5rem/1.5 "Roboto", sans-serif;
+  color: var(--cor-1);
+  margin-bottom: 15px;
+}
+.field input[type="text"],
+.field input[type="email"],
+.field textarea {
+  font: 400 1rem/1.5 "Roboto", sans-serif;
+  background-color: var(--cor-fucos);
+  border: 1px solid var(--cor-1);
+  border-radius: 4px;
+  padding: 12px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.field input[type="text"]:focus,
+.field input[type="email"]:focus,
+.field textarea:focus {
+  outline: none;
+  background: var(--cor-0);
+  border-color: var(--cor-detaque-1);
+  box-shadow: 0 0 2px var(--cor-detaque-2);
+}
+.botao {
+  width: 300px;
+}
+.form p {
+  margin-bottom: 50px;
+}

@@ -19,7 +19,7 @@
   }
 }
 #header .header-content li a:hover {
-  color: var(--cor-destaque-1);
+  color: var(--cor-detalhe-1);
 }
 .introduction-content {
   text-align: center;
@@ -41,21 +41,9 @@
       & > a {
         display: flex;
         justify-content: space-evenly;
-        padding: 16px 50px;
+        padding: 12px 50px;
         text-transform: capitalize;
       }
     }
   }
 }
-.links-extremos li:hover {
-  background: var(--cor-destaque-1);
-  transform: scale(1.1);
-  transition: 0.2s;
-}
-.links-extremos li a:hover {
-  color: var(--cor-subtitulo);
-  transition: 0.2s;
-}
-/* .links-extremos li a {
-  display: inline-block;
-} */

@@ -15,16 +15,16 @@
 </head>
 
 <body>
-  <header id="header" class="container">
+  <header id="header" class="section">
     <main class="header-content">
-      <img src="./img/logo.svg" alt="Logotipo" width="176" height="57">
+      <img src="./img/icon/logo.svg" alt="Logotipo" width="176" height="57">
       <nav aria-label="Primário" class="navegacao">
         <ul class="font-int-g-1">
           <li><a href="#header">home</a></li>
           <li><a href="#about-me">sobre mim</a></li>
           <li><a href="#studies">meus estudos</a></li>
-          <li><a href="#projeto">projeto</a></li>
-          <li><a href="#contato">contato</a></li>
+          <li><a href="#project">projeto</a></li>
+          <li><a href="#contact">contato</a></li>
         </ul>
       </nav>
     </main>
@@ -35,79 +35,133 @@
       </div>
       <div class="links-extremos">
         <ul>
-          <li><a href="#" class="bi bi-github cor-8 font-pop-g-1">git hub</a></li>
-          <li><a href="#" class="bi bi-linkedin cor-8 font-pop-g-1">likedin</a></li>
+          <li><a href="#" class="bi bi-github btn">git hub</a></li>
+          <li><a href="#" class="bi bi-linkedin btn">likedin</a></li>
         </ul>
       </div>
     </section>
   </header>
-  <article id="about-me" aria-labelledby="about">
-    <section class="about__me-container container">
+  <article id="about-me" class="section " aria-labelledby="about">
+    <h2 class="Subtitulo " id="about">Sobre mim</h2>
+    <section class="about__me-container container ">
       <div class="about__me-box">
-        <h2 class="Subtitulo" id="about">Sobre mim</h2>
         <p class="font-os-r-1 cor-t">Eu recentemente iniciei minha jornada na programação no final de 2022. Atualmente, possuo habilidades para criar sites utilizando HTML, CSS e JavaScript.</p>
         <p class="font-os-r-1 cor-t">Optei por me dedicar ao Front End devido à sua vasta comunidade, potencial de crescimento e à incrível possibilidade de reutilizar conhecimentos na web. Estou empolgado em explorar as oportunidades que essa área oferece e em me aprimorar constantemente.</p>
       </div>
-      <div>
-        <img class="img-foto" src="./img/foto-perfil.png" alt="Bruno" width="473" height="843">
+      <div class="img-foto">
+        <img src="./img/foto-perfil.png" alt="Bruno" width="473" height="843">
       </div>
     </section>
   </article>
-  <article id="studies" class="s" my-studies">
-    <div class="studies-container container">
-      <h2 class="Subtitulo">Meus estudos</h2>
+  <article id="studies" class="section my-studies" aria-labelledby=" my-studies">
+    <h2 id=" my-studies" class="Subtitulo">Meus estudos</h2>
+    <div class="studies-container container ">
       <section class="studies-boxs">
         <div class="studies-box">
           <div class="studies-img">
             <ul>
-              <li><img src="./img/html-5.png" alt="HTML" width="512" height="512"></li>
-              <li><img src="./img/CSS.png" alt="CSS" width="512" height="512"></li>
+              <li><img src="./img/icon/html.png" alt="HTML" width="512" height="512"></li>
+              <li><img src="./img/icon/css.png" alt="CSS" width="512" height="512"></li>
             </ul>
           </div>
-
           <div>
             <p class="font-int-r-1 cor-t">No <span class="span">HTML</span>, desenvolvi habilidades sólidas ao aplicar corretamente a semântica do documento, estabelecendo uma estrutura robusta. Dominei posicionamentos com Grids e Flexbox, implementei pseudo-classes, tornando o site responsivo através de Media Queries. Além disso no <span class="span">CSS</span>, utilizei paletas de cores com coerência, adotei boas práticas de reutilização e otimização de variáveis.
             </p>
           </div>
         </div>
+
         <div class="studies-box">
           <div class="studies-img">
-            <ul>
-              <li><img src="./img/ui-design.png" alt="design" width="512" height="512"></li>
-            </ul>
+            <img src="./img/icon/ui-design.png" alt="design" width="512" height="512">
           </div>
-
           <div>
             <p class="font-int-r-1 cor-t">Como <span class="span">UX/UI</span> Designer, adquiri conhecimentos fundamentais em design de experiência do usuário e interface do usuário. Utilizei a ferramenta Figma para aplicar conceitos de espaçamento entre elementos, tipografia adequada e cores na experiência do usuário.</p>
           </div>
         </div>
+
         <div class="studies-box">
           <div class="studies-img">
-            <ul>
-              <li><img src="./img/javascript.png" alt="JavaScript" width="512" height="512"></li>
-
-            </ul>
+            <img src="./img/icon/javascript.png" width="512" height="512">
           </div>
           <div>
             <p class="font-int-r-1 cor-t">Escolhi o <span class="span">Vue.js</span> como meu primeiro framework devido ao seu foco na aprendizagem centrada na interação e experiência do usuário. Acredito que essa escolha não apenas me proporcionará uma compreensão mais profunda desses aspectos cruciais, mas também me permitirá criar uma variedade de interfaces com eficiência.</p>
           </div>
         </div>
+
         <div class="studies-box">
           <div class="studies-img">
-            <ul>
-              <li><img src="./img/Vue.js_Logo_2.svg.png" alt="Vue.js" width="512" height="444"></li>
-            </ul>
-          </div>
-
-          <div>
-            <p class="font-int-r-1 cor-t">Escolhi o <span class="span">Vue.js</span> como meu primeiro framework devido ao seu foco na aprendizagem centrada na interação e experiência do usuário. Acredito que essa escolha não apenas me proporcionará uma compreensão mais profunda desses aspectos cruciais, mas também me permitirá criar uma variedade de interfaces com eficiência.</p>
-            </p>
+            <img src="./img/Vue.js_Logo_2.svg.png" alt="Vue.js" width="512" height="444">
+            <div>
+              <p class="font-int-r-1 cor-t">Escolhi o <span class="span">Vue.js</span> como meu primeiro framework devido ao seu foco na aprendizagem centrada na interação e experiência do usuário. Acredito que essa escolha não apenas me proporcionará uma compreensão mais profunda desses aspectos cruciais, mas também me permitirá criar uma variedade de interfaces com eficiência.</p>
+              </p>
+            </div>
           </div>
         </div>
-    </div>
-    </section>
-
+      </section>
   </article>
+
+  <article id="project" class="section" aria-labelledby="contact">
+    <h2 class="Subtitulo">meu projetos</h2>
+    <section class="project-conatiner container">
+      <div class="project-box">
+        <div class="project-boxs">
+          <div class="project-site">
+            <img src="./img/projetos/animais-fantastico.png" alt="Site Animais Fantásticos">
+
+          </div>
+          <div class="project-inf">
+            <span class="font-int-r-2 cor-3">Modelo Website Projeto Origamid</span>
+            <p class="font-int-r-1  cor-t">Este projeto é intensivamente baseado em JavaScript, onde dominei a manipulação do DOM, conceitos assíncronos, expressões regulares, automação e otimização de código, além da implementação de classes em JavaScript.</p>
+
+            <div class="project-links">
+              <ul>
+                <li><a href="#" class="btn">Abrir projeto</a></li>
+                <li><a href="#" class="btn">Repositório</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="project-boxs">
+          <div class="project-site">
+            <img src="./img/projetos/bikcraft.png" alt="Site Bikcraft">
+          </div>
+          <div class="project-inf">
+            <span class="font-int-r-2 cor-3">Modelo Website Projeto Origamid</span>
+            <p class="font-int-r-1  cor-t">Este projeto fiz somente usando HTML e CSS, deixando otimizado e responsivo, utilizando algumas técnicas de UI Design</p>
+            <div class="project-links">
+              <ul>
+                <li><a href="#" class="btn">Abrir projeto</a></li>
+                <li><a href="#" class="btn">Repositório</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </article>
+  <form action="" id="contact" class="form section">
+    <h2 class="Subtitulo">contato</h2>
+    <div class="container">
+      <p class="font-int-r-1  cor-t">Se você deseja entrar em contato, por favor, preencha o formulário abaixo. Farei o possível para responder o mais rápido possível. Estou ansioso para conversar com você em breve!</p>
+      <div class="field ">
+        <div class="field-data ">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required placeholder="Nome">
+        </div>
+        <div class="field-data ">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required placeholder="Email">
+
+        </div>
+        <div class="field-data col-2 ">
+          <p class="font-int-g-1 cor-t">Mensagem</p>
+          <label for="menssage"></label>
+          <textarea name="menssage" id="menssage" cols="30" rows="10"></textarea>
+        </div>
+        <button class="botao btn ">Enviar</button>
+      </div>
+    </div>
+  </form>
 
 </body>
 

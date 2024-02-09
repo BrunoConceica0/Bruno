@@ -1,38 +1,42 @@
 .about__me-container {
   display: grid;
-  grid-template-columns: 1fr auto;
+  grid-template-columns: 1fr 1fr;
   position: relative;
-  padding-top: 120px;
-  & > .about__me-box h2 {
-    display: flex;
-    margin-bottom: 90px;
-    align-items: center;
-  }
-  & > .about__me-box p {
-    margin-bottom: 50px;
-  }
+  align-items: center;
 }
-/* .img-foto::after {
-  content: "oie";
-  display: block;
-  background: url("../img/detalhe-foto.svg"), no-repeat;
-  width: 421px;
-  height: 232px;
-  margin-left: 60px;
-  position: absolute;
-} */
-.about__me-container h2::before {
+#about-me h2::before {
   content: "";
   display: inline-block;
-  background: url("../img/detalhe.svg") no-repeat;
-  width: 24px;
+  background: url("../img/icon/detalhe.svg") no-repeat;
+  width: 26px;
   height: 41px;
   margin-right: 10px;
 }
+.about__me-box p {
+  margin-bottom: 50px;
+  display: flex;
+}
 .img-foto {
-  position: relative;
-  height: 943px;
-  width: 531px;
+  display: flex;
   object-fit: cover;
   position: center;
+  justify-content: flex-end;
+  z-index: 3;
+}
+.about__me-box::before {
+  content: "";
+  display: block;
+  background: url("../img/icon/detalhe-foto.jpg") no-repeat;
+  height: 880px;
+  width: 480px;
+  position: absolute;
+  right: 75px;
+  bottom: 80px;
+  z-index: -1;
+  object-fit: cover;
+  object-fit: cover;
+}
+.img-foto img {
+  object-fit: cover;
+  object-fit: cover;
 }

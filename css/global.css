@@ -7,12 +7,22 @@
 body {
   background: var(--cor-background);
 }
-.container {
+.section {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
 }
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 90px 0 120px 0;
+}
 img[src$=".png"] {
   max-width: 100%;
   display: block;
+}
+img[src$=".png"] {
+  max-width: 100%;
+  display: block;
+  height: 100%;
 }

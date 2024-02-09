@@ -3,7 +3,10 @@
 @import url("./global.css");
 @import url("./about-me.css");
 @import url("./studies.css");
+@import url("./project.css");
+@import url("./contato.css");
 
 /* ferramentas */
 @import url("./utilidades/cores.css");
 @import url("./utilidades/tipografia.css");
+@import url("./utilidades/componentes.css");
