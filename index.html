@@ -15,11 +15,14 @@
 </head>
 
 <body>
-  <header id="header" class="section">
-    <main class="header-content">
-      <img src="./img/icon/logo.svg" alt="Logotipo" width="176" height="57">
+  <header id="header">
+    <main class="header-content section">
+      <div class="header-img">
+        <img src="./img/icon/logo.svg" alt="Logotipo" width="176" height="57">
+      </div>
       <nav aria-label="Primário" class="navegacao">
-        <ul class="font-int-g-1">
+        <button data-button="menu" aria-controls="menu" aria-expanded="false">Menu</button>
+        <ul class="font-int-g-1" data-button="lista" id="menu">
           <li><a href="#header">home</a></li>
           <li><a href="#about-me">sobre mim</a></li>
           <li><a href="#studies">meus estudos</a></li>
@@ -28,18 +31,16 @@
         </ul>
       </nav>
     </main>
-    <section id="introduction">
-      <div class="introduction-content">
-        <h1 class="font-pop-g-4 cor-t">Futuro desenvolvedor de<br> <span class="liner">Front End</span></h1>
-        <p class="font-os-r-1 cor-t">Meu nome é <span class="span">Bruno Conceição dos Santos</span>, desenvolvo programacão de Front End com HTML, CSS, JavaScript </p>
-      </div>
+    <div class="introduction-content container">
+      <h1 class="font-pop-g-4 cor-t">Futuro desenvolvedor de<br> <span class="liner">Front End</span></h1>
+      <p class="font-os-r-1 cor-t">Meu nome é <span class="span">Bruno Conceição dos Santos</span>, desenvolvo programacão de Front End com HTML, CSS, JavaScript </p>
       <div class="links-extremos">
         <ul>
           <li><a href="#" class="bi bi-github btn">git hub</a></li>
           <li><a href="#" class="bi bi-linkedin btn">likedin</a></li>
         </ul>
       </div>
-    </section>
+    </div>
   </header>
   <article id="about-me" class="section " aria-labelledby="about">
     <h2 class="Subtitulo " id="about">Sobre mim</h2>
@@ -49,7 +50,7 @@
         <p class="font-os-r-1 cor-t">Optei por me dedicar ao Front End devido à sua vasta comunidade, potencial de crescimento e à incrível possibilidade de reutilizar conhecimentos na web. Estou empolgado em explorar as oportunidades que essa área oferece e em me aprimorar constantemente.</p>
       </div>
       <div class="img-foto">
-        <img src="./img/foto-perfil.png" alt="Bruno" width="473" height="843">
+        <img src="./img/fotos/foto-perfil-2.png" alt="Bruno" width="473" height="843">
       </div>
     </section>
   </article>
@@ -90,7 +91,7 @@
 
         <div class="studies-box">
           <div class="studies-img">
-            <img src="./img/Vue.js_Logo_2.svg.png" alt="Vue.js" width="512" height="444">
+            <img src="./img/icon/Vue.svg.png" alt="Vue.js" width="512" height="444">
             <div>
               <p class="font-int-r-1 cor-t">Escolhi o <span class="span">Vue.js</span> como meu primeiro framework devido ao seu foco na aprendizagem centrada na interação e experiência do usuário. Acredito que essa escolha não apenas me proporcionará uma compreensão mais profunda desses aspectos cruciais, mas também me permitirá criar uma variedade de interfaces com eficiência.</p>
               </p>
@@ -162,7 +163,7 @@
       </div>
     </div>
   </form>
-
+  <script type="module" src="./js/script.js"></script>
 </body>
 
 </html>

@@ -10,12 +10,11 @@ body {
 .section {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 20px;
 }
 .container {
   width: 1000px;
   margin: 0 auto;
-  padding: 90px 0 120px 0;
+  padding: 90px 20px 120px 20px;
 }
 img[src$=".png"] {
   max-width: 100%;
@@ -25,4 +24,12 @@ img[src$=".png"] {
   max-width: 100%;
   display: block;
   height: 100%;
+}
+@media (max-width: 1050px) {
+  .section {
+    max-width: auto;
+  }
+  .container {
+    width: auto;
+  }
 }

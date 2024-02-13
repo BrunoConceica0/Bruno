@@ -1,6 +1,10 @@
 /* estilos */
-@import url("./hearder.css");
-@import url("./global.css");
+
+/* header */
+@import url("./head/header.css");
+@import url("./head/menu.css");
+
+
 @import url("./about-me.css");
 @import url("./studies.css");
 @import url("./project.css");
@@ -10,3 +14,6 @@
 @import url("./utilidades/cores.css");
 @import url("./utilidades/tipografia.css");
 @import url("./utilidades/componentes.css");
+/* global */
+
+@import url("./global.css");
