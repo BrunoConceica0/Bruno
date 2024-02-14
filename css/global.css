@@ -6,6 +6,7 @@
 }
 body {
   background: var(--cor-background);
+  padding: 0 20px;
 }
 .section {
   max-width: 1200px;
@@ -31,5 +32,10 @@ img[src$=".png"] {
   }
   .container {
     width: auto;
+  }
+}
+@media (max-width: 450px) {
+  body {
+    padding: 0 10px;
   }
 }

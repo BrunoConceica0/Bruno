@@ -32,11 +32,32 @@
   position: absolute;
   right: 75px;
   bottom: 80px;
-  z-index: -1;
-  object-fit: cover;
-  object-fit: cover;
 }
 .img-foto img {
   object-fit: cover;
   object-fit: cover;
+}
+@media (max-width: 1080px) {
+  .img-foto {
+    display: flex;
+    width: 50%;
+    justify-content: flex-start;
+  }
+  .about__me-box::before {
+    display: none;
+    transform: rotate(134deg);
+  }
+}
+@media (max-width: 850px) {
+  .about__me-container {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 500px) {
+  #about-me h2::before {
+    height: 22px;
+  }
+  #about-me h2 {
+    text-align: center;
+  }
 }

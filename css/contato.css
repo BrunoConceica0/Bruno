@@ -46,3 +46,11 @@
 .form p {
   margin-bottom: 50px;
 }
+@media (max-width: 500px) {
+  #contactme h2::before {
+    height: 22px;
+  }
+  #contact h2 {
+    text-align: center;
+  }
+}

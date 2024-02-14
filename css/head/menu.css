@@ -1,7 +1,9 @@
+[data-button="menu"] {
+  display: none;
+}
 @media (max-width: 850px) {
   [data-button="menu"] {
     display: flex;
-    border-radius: none;
     padding: 8px 12px;
     border: 2px solid var(--cor-8);
     background-color: var(--cor-detaque-1);
@@ -12,8 +14,8 @@
     z-index: 300;
     cursor: pointer;
     position: relative;
-    right: 0;
     right: 15px;
+    top: -39px;
   }
   [data-button="menu"]::before {
     content: "";
@@ -30,13 +32,15 @@
     flex-direction: column;
     background: var(--cor-8);
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
-    width: 175px;
-    height: 200px;
+    width: 125px;
+    padding: 10px;
     border-radius: 4px;
     z-index: 200;
     position: absolute;
     top: 104px;
+    right: 15px;
   }
+
   #menu {
     display: none;
   }

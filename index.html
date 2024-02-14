@@ -4,14 +4,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/styles.css">
+  <title>Bruno</title>
   <meta name="description" content="Apresentação do meu Portfólio">
-  <meta name="Keyword" content="HTML, CSS, JAVASCRIPT">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <link rel="stylesheet" href="./css/styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-  <title>Bruno</title>
 </head>
 
 <body>
@@ -33,17 +33,22 @@
     </main>
     <div class="introduction-content container">
       <h1 class="font-pop-g-4 cor-t">Futuro desenvolvedor de<br> <span class="liner">Front End</span></h1>
-      <p class="font-os-r-1 cor-t">Meu nome é <span class="span">Bruno Conceição dos Santos</span>, desenvolvo programacão de Front End com HTML, CSS, JavaScript </p>
+      <p class="font-os-r-1 cor-t">Meu nome é <strong class="span">Bruno Conceição dos Santos</strong>, desenvolvo programacão de Front End com HTML, CSS, JavaScript </p>
       <div class="links-extremos">
         <ul>
-          <li><a href="#" class="bi bi-github btn">git hub</a></li>
-          <li><a href="#" class="bi bi-linkedin btn">likedin</a></li>
+          <li><a href="#" class="btn">
+              <span class="bi bi-github"></span>
+              <span>git hub</span></a></li>
+          <li><a href="#" class="btn">
+              <span class="bi bi-linkedin"></span>
+              <span>linkedin</span></a></li>
         </ul>
       </div>
     </div>
   </header>
+
   <article id="about-me" class="section " aria-labelledby="about">
-    <h2 class="Subtitulo " id="about">Sobre mim</h2>
+    <h2 class="Subtitulo" id="about">Sobre mim</h2>
     <section class="about__me-container container ">
       <div class="about__me-box">
         <p class="font-os-r-1 cor-t">Eu recentemente iniciei minha jornada na programação no final de 2022. Atualmente, possuo habilidades para criar sites utilizando HTML, CSS e JavaScript.</p>
@@ -51,9 +56,14 @@
       </div>
       <div class="img-foto">
         <img src="./img/fotos/foto-perfil-2.png" alt="Bruno" width="473" height="843">
+        <picture>
+          <source srcset="../img/fotos/foto-perfil-1.png">
+        </picture>
+        <source media="(max-width:850px)">
       </div>
     </section>
   </article>
+
   <article id="studies" class="section my-studies" aria-labelledby=" my-studies">
     <h2 id=" my-studies" class="Subtitulo">Meus estudos</h2>
     <div class="studies-container container ">
@@ -66,8 +76,7 @@
             </ul>
           </div>
           <div>
-            <p class="font-int-r-1 cor-t">No <span class="span">HTML</span>, desenvolvi habilidades sólidas ao aplicar corretamente a semântica do documento, estabelecendo uma estrutura robusta. Dominei posicionamentos com Grids e Flexbox, implementei pseudo-classes, tornando o site responsivo através de Media Queries. Além disso no <span class="span">CSS</span>, utilizei paletas de cores com coerência, adotei boas práticas de reutilização e otimização de variáveis.
-            </p>
+            <p class="font-int-r-1 cor-t">No <strong class="span">HTML</strong>, desenvolvi habilidades sólidas ao aplicar corretamente a semântica do documento, estabelecendo uma estrutura robusta. Dominei posicionamentos com Grids e Flexbox, implementei pseudo-classes, tornando o site responsivo através de Media Queries. Além disso no <strong class="span">CSS</strong>, utilizei paletas de cores com coerência, adotei boas práticas de reutilização e otimização de variáveis.</p>
           </div>
         </div>
 
@@ -76,7 +85,7 @@
             <img src="./img/icon/ui-design.png" alt="design" width="512" height="512">
           </div>
           <div>
-            <p class="font-int-r-1 cor-t">Como <span class="span">UX/UI</span> Designer, adquiri conhecimentos fundamentais em design de experiência do usuário e interface do usuário. Utilizei a ferramenta Figma para aplicar conceitos de espaçamento entre elementos, tipografia adequada e cores na experiência do usuário.</p>
+            <p class="font-int-r-1 cor-t">Como <strong class="span">UX/UI</strong> Designer, adquiri conhecimentos fundamentais em design de experiência do usuário e interface do usuário. Utilizei a ferramenta Figma para aplicar conceitos de espaçamento entre elementos, tipografia adequada e cores na experiência do usuário.</p>
           </div>
         </div>
 
@@ -85,7 +94,7 @@
             <img src="./img/icon/javascript.png" width="512" height="512">
           </div>
           <div>
-            <p class="font-int-r-1 cor-t">Escolhi o <span class="span">Vue.js</span> como meu primeiro framework devido ao seu foco na aprendizagem centrada na interação e experiência do usuário. Acredito que essa escolha não apenas me proporcionará uma compreensão mais profunda desses aspectos cruciais, mas também me permitirá criar uma variedade de interfaces com eficiência.</p>
+            <p class="font-int-r-1 cor-t">Escolhi o <strong class="span">Vue.js</strong> como meu primeiro framework devido ao seu foco na aprendizagem centrada na interação e experiência do usuário. Acredito que essa escolha não apenas me proporcionará uma compreensão mais profunda desses aspectos cruciais, mas também me permitirá criar uma variedade de interfaces com eficiência.</p>
           </div>
         </div>
 
@@ -93,12 +102,13 @@
           <div class="studies-img">
             <img src="./img/icon/Vue.svg.png" alt="Vue.js" width="512" height="444">
             <div>
-              <p class="font-int-r-1 cor-t">Escolhi o <span class="span">Vue.js</span> como meu primeiro framework devido ao seu foco na aprendizagem centrada na interação e experiência do usuário. Acredito que essa escolha não apenas me proporcionará uma compreensão mais profunda desses aspectos cruciais, mas também me permitirá criar uma variedade de interfaces com eficiência.</p>
+              <p class="font-int-r-1 cor-t">Escolhi o <strong class="span">Vue.js</strong> como meu primeiro framework devido ao seu foco na aprendizagem centrada na interação e experiência do usuário. Acredito que essa escolha não apenas me proporcionará uma compreensão mais profunda desses aspectos cruciais, mas também me permitirá criar uma variedade de interfaces com eficiência.</p>
               </p>
             </div>
           </div>
         </div>
       </section>
+    </div>
   </article>
 
   <article id="project" class="section" aria-labelledby="contact">
@@ -108,7 +118,6 @@
         <div class="project-boxs">
           <div class="project-site">
             <img src="./img/projetos/animais-fantastico.png" alt="Site Animais Fantásticos">
-
           </div>
           <div class="project-inf">
             <span class="font-int-r-2 cor-3">Modelo Website Projeto Origamid</span>
@@ -140,6 +149,7 @@
       </div>
     </section>
   </article>
+
   <form action="" id="contact" class="form section">
     <h2 class="Subtitulo">contato</h2>
     <div class="container">
@@ -156,13 +166,14 @@
         </div>
         <div class="field-data col-2 ">
           <p class="font-int-g-1 cor-t">Mensagem</p>
-          <label for="menssage"></label>
-          <textarea name="menssage" id="menssage" cols="30" rows="10"></textarea>
+          <label for="message"></label>
+          <textarea name="message" id="message" cols="30" rows="10"></textarea>
         </div>
         <button class="botao btn ">Enviar</button>
       </div>
     </div>
   </form>
+
   <script type="module" src="./js/script.js"></script>
 </body>
 
