@@ -4,7 +4,6 @@
 @import url("./head/header.css");
 @import url("./head/menu.css");
 
-
 @import url("./about-me.css");
 @import url("./studies.css");
 @import url("./project.css");
@@ -17,3 +16,6 @@
 /* global */
 
 @import url("./global.css");
+
+/*JavaScript*/
+@import url("./scroll.css");
