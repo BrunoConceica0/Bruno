@@ -9,7 +9,7 @@ body {
   padding: 0 20px;
 }
 .section {
-  max-width: 1200px;
+  width: 1200px;
   margin: 0 auto;
 }
 .container {
@@ -28,7 +28,7 @@ img[src$=".png"] {
 }
 @media (max-width: 1050px) {
   .section {
-    max-width: auto;
+    width: auto;
   }
   .container {
     width: auto;

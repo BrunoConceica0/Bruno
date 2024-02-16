@@ -16,9 +16,9 @@
 
 <body>
   <header id="header">
-    <main class="header-content section">
+    <main class="header-content" data-scrolling>
       <div class="header-img">
-        <img src="./img/icon/logo.svg" alt="Logotipo" width="176" height="57">
+        <img src="./img/icons/Bruno-Marca.svg" alt="Logotipo" width="176" height="57">
       </div>
       <nav aria-label="Primário" class="navegacao">
         <button data-button="menu" aria-controls="menu" aria-expanded="false">Menu</button>
@@ -36,10 +36,10 @@
       <p class="font-os-r-1 cor-t">Meu nome é <strong class="span">Bruno Conceição dos Santos</strong>, desenvolvo programacão de Front End com HTML, CSS, JavaScript </p>
       <div class="links-extremos">
         <ul>
-          <li><a href="" class="btn">
+          <li><a href="https://github.com/BrunoConceica0" class="btn" target="_blank">
               <span class="bi bi-github"></span>
               <span>git hub</span></a></li>
-          <li><a href="" class="btn">
+          <li><a href="https://www.linkedin.com/in/bruno-conceição-dos-santos-970226197/" class="btn" target="_blank">
               <span class="bi bi-linkedin"></span>
               <span>linkedin</span></a></li>
         </ul>
@@ -55,13 +55,8 @@
         <p class="font-os-r-1 cor-t">Optei por me dedicar ao Front End devido à sua vasta comunidade, potencial de crescimento e à incrível possibilidade de reutilizar conhecimentos na web. Estou empolgado em explorar as oportunidades que essa área oferece e em me aprimorar constantemente.</p>
       </div>
       <div class="img-foto">
-        <img src="./img/fotos/foto-perfil-2.png" alt="Bruno" width="473" height="843">
-        <picture>
-          <source srcset="../img/fotos/foto-perfil-1.png">
-        </picture>
-        <source media="(max-width:850px)">
+        <img src="./img/fotos/foto-perfil.png" alt="Bruno" width="473" height="843">
       </div>
-    </section>
   </article>
 
   <article id="studies" class="section my-studies" aria-labelledby=" my-studies" data-scroll="section">
@@ -71,8 +66,8 @@
         <div class="studies-box">
           <div class="studies-img">
             <ul>
-              <li><img src="./img/icon/html.png" alt="HTML" width="512" height="512"></li>
-              <li><img src="./img/icon/css.png" alt="CSS" width="512" height="512"></li>
+              <li><img src="./img/icons/html.png" alt="HTML" width="512" height="512"></li>
+              <li><img src="./img/icons/css.png" alt="CSS" width="512" height="512"></li>
             </ul>
           </div>
           <div>
@@ -82,7 +77,7 @@
 
         <div class="studies-box">
           <div class="studies-img">
-            <img src="./img/icon/ui-design.png" alt="design" width="512" height="512">
+            <img src="./img/icons/ui-design.png" alt="design" width="512" height="512">
           </div>
           <div>
             <p class="font-int-r-1 cor-t">Como <strong class="span">UX/UI</strong> Designer, adquiri conhecimentos fundamentais em design de experiência do usuário e interface do usuário. Utilizei a ferramenta Figma para aplicar conceitos de espaçamento entre elementos, tipografia adequada e cores na experiência do usuário.</p>
@@ -91,7 +86,7 @@
 
         <div class="studies-box">
           <div class="studies-img">
-            <img src="./img/icon/javascript.png" width="512" height="512">
+            <img src="./img/icons/javascript.png" width="512" height="512">
           </div>
           <div>
             <p class="font-int-r-1 cor-t">Escolhi o <strong class="span">Vue.js</strong> como meu primeiro framework devido ao seu foco na aprendizagem centrada na interação e experiência do usuário. Acredito que essa escolha não apenas me proporcionará uma compreensão mais profunda desses aspectos cruciais, mas também me permitirá criar uma variedade de interfaces com eficiência.</p>
@@ -100,7 +95,7 @@
 
         <div class="studies-box">
           <div class="studies-img">
-            <img src="./img/icon/Vue.svg.png" alt="Vue.js" width="512" height="444">
+            <img src="./img/icons/Vue.svg.png" alt="Vue.js" width="512" height="444">
             <div>
               <p class="font-int-r-1 cor-t">Escolhi o <strong class="span">Vue.js</strong> como meu primeiro framework devido ao seu foco na aprendizagem centrada na interação e experiência do usuário. Acredito que essa escolha não apenas me proporcionará uma compreensão mais profunda desses aspectos cruciais, mas também me permitirá criar uma variedade de interfaces com eficiência.</p>
               </p>
@@ -125,8 +120,8 @@
 
             <div class="project-links">
               <ul>
-                <li><a href="" class="btn">Abrir projeto</a></li>
-                <li><a href="" class="btn">Repositório</a></li>
+                <li><a href="https://brunoconceica0.github.io/Animais-Fantastico/" class="btn" target="_blank">Abrir projeto</a></li>
+                <li><a href="https://github.com/BrunoConceica0/Animais-Fantastico" class="btn" target="_blank">Repositório</a></li>
               </ul>
             </div>
           </div>
@@ -140,8 +135,8 @@
             <p class="font-int-r-1  cor-t">Este projeto fiz somente usando HTML e CSS, deixando otimizado e responsivo, utilizando algumas técnicas de UI Design</p>
             <div class="project-links">
               <ul>
-                <li><a href="" class="btn">Abrir projeto</a></li>
-                <li><a href="" class="btn">Repositório</a></li>
+                <li><a href="https://brunoconceica0.github.io/bikcraft/" class="btn" target="_blank" target="_blank">Abrir projeto</a></li>
+                <li><a href="https://github.com/BrunoConceica0/bikcraft" class="btn" target="_blank">Repositório</a></li>
               </ul>
             </div>
           </div>
@@ -159,13 +154,13 @@
           <label for="name">Name</label>
           <input type="text" id="name" name="name" required placeholder="Nome">
         </div>
-        <div class="field-data ">
+        <div class="field-data">
           <label for="email">Email</label>
           <input type="email" id="email" name="email" required placeholder="Email">
 
         </div>
         <div class="field-data col-2 ">
-          <p class="font-int-g-1 cor-t">Mensagem</p>
+          <p class="">Mensagem</p>
           <label for="message"></label>
           <textarea name="message" id="message" cols="30" rows="10"></textarea>
         </div>

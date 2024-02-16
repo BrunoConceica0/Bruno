@@ -15,7 +15,7 @@
 .my-studies h2::before {
   content: "";
   display: inline-block;
-  background: url("../img/icon/detalhe.svg") no-repeat;
+  background: url("../img/icons/detalhe.svg") no-repeat;
   width: 26px;
   height: 41px;
   margin-right: 10px;

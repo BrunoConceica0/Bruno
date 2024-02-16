@@ -7,7 +7,7 @@
 #about-me h2::before {
   content: "";
   display: inline-block;
-  background: url("../img/icon/detalhe.svg") no-repeat;
+  background: url("../img/icons/detalhe.svg") no-repeat;
   width: 26px;
   height: 41px;
   margin-right: 10px;
@@ -26,7 +26,7 @@
 .about__me-box::before {
   content: "";
   display: block;
-  background: url("../img/icon/detalhe-foto.jpg") no-repeat;
+  background: url("../img/fotos/detalhe-foto.png") no-repeat;
   height: 880px;
   width: 480px;
   position: absolute;
@@ -38,19 +38,21 @@
   object-fit: cover;
 }
 @media (max-width: 1080px) {
-  .img-foto {
+  .img-foto img {
     display: flex;
-    width: 50%;
+    width: 25vh;
     justify-content: flex-start;
   }
   .about__me-box::before {
     display: none;
-    transform: rotate(134deg);
   }
 }
 @media (max-width: 850px) {
   .about__me-container {
     grid-template-columns: 1fr;
+  }
+  .img-foto {
+    display: none;
   }
 }
 @media (max-width: 500px) {

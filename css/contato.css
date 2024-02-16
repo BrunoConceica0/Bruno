@@ -6,9 +6,7 @@
   height: 41px;
   margin-right: 10px;
 }
-.form {
-  padding: 120px 0 150px 0;
-}
+
 .field {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -17,14 +15,14 @@
 }
 .field label {
   display: block;
-  font: 600 1.5rem/1.5 "Roboto", sans-serif;
+  font: var(--font-label);
   color: var(--cor-1);
   margin-bottom: 15px;
 }
 .field input[type="text"],
 .field input[type="email"],
 .field textarea {
-  font: 400 1rem/1.5 "Roboto", sans-serif;
+  font: var(--font-input);
   background-color: var(--cor-fucos);
   border: 1px solid var(--cor-1);
   border-radius: 4px;
@@ -32,7 +30,10 @@
   width: 100%;
   box-sizing: border-box;
 }
-
+.field-data p {
+  font: var(--font-label);
+  color: var(--cor-1);
+}
 .field input[type="text"]:focus,
 .field input[type="email"]:focus,
 .field textarea:focus {
@@ -61,7 +62,8 @@
     flex-direction: column;
     margin-top: 60px;
   }
-  .field label {
+  .field label,
+  .field-data p {
     font-size: 1rem;
   }
   .field input[type="text"],

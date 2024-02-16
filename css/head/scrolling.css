@@ -1,0 +1,7 @@
+[data-scrolling].scrolling {
+  background: linear-gradient(var(--cor-8), 90%, var(--cor-9));
+  height: 4vw;
+}
+
+[data-scrolling] {
+}
