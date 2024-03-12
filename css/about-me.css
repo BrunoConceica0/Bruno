@@ -15,6 +15,7 @@
 .about__me-box p {
   margin-bottom: 50px;
   display: flex;
+  color: var(--cor-texto);
 }
 .img-foto {
   display: flex;

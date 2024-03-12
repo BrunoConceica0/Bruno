@@ -8,19 +8,17 @@
 
 export default function initScrollSuave() {
   const linksInternos = document.querySelectorAll('a[href^="#"]');
-  if (linksInternos.length) {
-    function animeScroll(event) {
-      event.preventDefault();
-      const href = this.getAttribute("href");
-      const section = document.querySelector(href);
-      const top = section.offsetTop;
-      window.scrollTo({
-        top: top,
-        behavior: "smooth",
-      });
-    }
-    linksInternos.forEach((link) => {
-      link.addEventListener("click", animeScroll);
+  function animeScroll(event) {
+    event.preventDefault();
+    const href = this.getAttribute("href");
+    const section = document.querySelector(href);
+    const top = section.offsetTop;
+    window.scrollTo({
+      top: top,
+      behavior: "smooth",
     });
   }
+  linksInternos.forEach((link) => {
+    link.addEventListener("click", animeScroll);
+  });
 }

@@ -4,16 +4,14 @@ export default function initMenuMobile() {
   const listMenuMobile = document.querySelector('[data-button="lista"]');
   const eventos = ["click", "touchstart"];
   //desconhecido ? o botão esta dando null
-  if (btnMenuMobile) {
-    function openMenu(event) {
-      listMenuMobile.classList.add("active");
-      btnMenuMobile.classList.add("active");
-      oustide(listMenuMobile, ["click", "touchstart"], () => {
-        console.log("test");
-        listMenuMobile.classList.remove("active");
-        btnMenuMobile.classList.remove("active");
-      });
-    }
-    btnMenuMobile.addEventListener("click", openMenu);
+  function openMenu() {
+    listMenuMobile.classList.add("active");
+    btnMenuMobile.classList.add("active");
+    oustide(listMenuMobile, eventos, () => {
+      console.log("test");
+      listMenuMobile.classList.remove("active");
+      btnMenuMobile.classList.remove("active");
+    });
   }
+  btnMenuMobile.addEventListener("click", openMenu);
 }
