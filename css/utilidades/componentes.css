@@ -21,7 +21,6 @@
 }
 .btn:hover {
   background: linear-gradient(var(--cor-detaque-1), var(--cor-detaque-2));
-
   color: var(--cor-0);
   transform: scale(1.1);
   transition: 0.5s;

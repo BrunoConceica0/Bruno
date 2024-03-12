@@ -7,7 +7,7 @@
   --cor-texto: #1a1a1a;
   --cor-fucos: #d4d4d4;
   /* paleta de cores  */
-  --cor-0: #;
+  --cor-0: #fffefd;
   --cor-1: #f2e6d9;
   --cor-2: #ecb379;
   --cor-3: #de7f23;
@@ -15,7 +15,7 @@
   --cor-5: #de4323;
   --cor-6: #9c5a17;
   --cor-7: #59330d;
-  --cor-8: #D9D9D9;
+  --cor-8: #d9d9d9;
   --cor-9: #f2e6d9;
 }
 @media (prefers-color-scheme: dark) {

@@ -21,7 +21,7 @@
   display: flex;
   object-fit: cover;
   position: center;
-  justify-content: flex-end;
+  justify-content: center;
   z-index: 3;
 }
 .about__me-box::before {
@@ -52,8 +52,10 @@
   .about__me-container {
     grid-template-columns: 1fr;
   }
-  .img-foto {
-    display: none;
+  .img-foto img {
+    border-radius: 50%;
+    border: 3px solid var(--cor-detaque-1);
+    box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.6);
   }
 }
 @media (max-width: 500px) {
