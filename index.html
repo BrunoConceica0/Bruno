@@ -17,19 +17,21 @@
 <body>
   <header id="header">
     <main class="header-content" data-scrolling>
-      <div class="header-img">
-        <img src="./img/icons/Bruno-Marca.svg" alt="Logotipo" width="176" height="57">
+      <div class="header-menu">
+        <div class="header-img">
+          <img src="./img/icons/Bruno-Marca.svg" alt="Logotipo" width="176" height="57">
+        </div>
+        <nav aria-label="Primário" class="navegacao">
+          <button data-button="menu" aria-controls="menu" aria-expanded="false">Menu</button>
+          <ul class="font-int-g-1" data-button="lista" id="menu">
+            <li><a href="#header">home</a></li>
+            <li><a href="#about-me">sobre mim</a></li>
+            <li><a href="#studies">meus estudos</a></li>
+            <li><a href="#project">projeto</a></li>
+            <li><a href="#contact">contato</a></li>
+          </ul>
+        </nav>
       </div>
-      <nav aria-label="Primário" class="navegacao">
-        <button data-button="menu" aria-controls="menu" aria-expanded="false">Menu</button>
-        <ul class="font-int-g-1" data-button="lista" id="menu">
-          <li><a href="#header">home</a></li>
-          <li><a href="#about-me">sobre mim</a></li>
-          <li><a href="#studies">meus estudos</a></li>
-          <li><a href="#project">projeto</a></li>
-          <li><a href="#contact">contato</a></li>
-        </ul>
-      </nav>
     </main>
     <div class="introduction-content container">
       <h1 class="font-pop-g-4 ">Futuro desenvolvedor de<br> <span class="liner">Front End</span></h1>

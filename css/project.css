@@ -41,8 +41,6 @@
 }
 #project .project-site img {
   border-radius: 15px 15px 0 0;
-  /* height: 24vh;
-  width: 46vw; */
   object-fit: cover;
   object-position: center;
 }
