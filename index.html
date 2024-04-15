@@ -33,7 +33,7 @@
         </nav>
       </div>
     </main>
-    <div class="introduction-content container">
+    <div class="introduction-content container" data-observer>
       <h1 class="font-pop-g-4 ">Futuro desenvolvedor de<br> <span class="liner">Front End</span></h1>
       <p class="font-os-r-1 ">Meu nome é <strong class="span">Bruno Conceição dos Santos</strong>, desenvolvo programacão de Front End com HTML, CSS, JavaScript </p>
       <div class="links-extremos">
@@ -50,7 +50,7 @@
   </header>
 
   <article id="about-me" class="section" aria-labelledby="about" data-scroll="section">
-    <h2 class="Subtitulo" id="about">Sobre mim</h2>
+    <h2 class="subtitulo" id="about">Sobre mim</h2>
     <section class="about__me-container container ">
       <div class="about__me-box">
         <p class="font-os-r-1">Eu recentemente iniciei minha jornada na programação no final de 2022. Atualmente, possuo habilidades para criar sites utilizando HTML, CSS e JavaScript.</p>
@@ -68,9 +68,19 @@
   </article>
 
   <article id="studies" class="section my-studies" aria-labelledby=" my-studies" data-scroll="section">
-    <h2 id=" my-studies" class="Subtitulo">Meus estudos</h2>
+    <h2 id=" my-studies" class="subtitulo">Meus estudos</h2>
     <div class="studies-container container ">
       <section class="studies-boxs">
+
+        <div class="studies-box">
+          <div class="studies-img">
+            <img src="./img/icons/javascript.png" width="512" height="512" alt="javascript">
+          </div>
+          <div>
+            <p class="font-int-r-1">Possuo habilidades intermediárias em manipulação do DOM em JavaScript, permitindo interações dinâmicas e atualizações em páginas web. Tenho conhecimento em utilizar a API Fetch para consumir dados de serviços web. Automação em front end uso do Git e GitHub para controle de versão de código, utilizando ferramentas como linha de comando NPM para gerenciar dependências e scripts de automação. </p>
+          </div>
+        </div>
+
         <div class="studies-box">
           <div class="studies-img">
             <ul>
@@ -94,15 +104,6 @@
 
         <div class="studies-box">
           <div class="studies-img">
-            <img src="./img/icons/javascript.png" width="512" height="512" alt="javascript">
-          </div>
-          <div>
-            <p class="font-int-r-1">Escolhi o <strong class="span">Vue.js</strong> como meu primeiro framework devido ao seu foco na aprendizagem centrada na interação e experiência do usuário. Acredito que essa escolha não apenas me proporcionará uma compreensão mais profunda desses aspectos cruciais, mas também me permitirá criar uma variedade de interfaces com eficiência.</p>
-          </div>
-        </div>
-
-        <div class="studies-box">
-          <div class="studies-img">
             <img src="./img/icons/Vue.svg.png" alt="Vue.js" width="512" height="444">
             <div>
               <p class="font-int-r-1">Escolhi o <strong class="span">Vue.js</strong> como meu primeiro framework devido ao seu foco na aprendizagem centrada na interação e experiência do usuário. Acredito que essa escolha não apenas me proporcionará uma compreensão mais profunda desses aspectos cruciais, mas também me permitirá criar uma variedade de interfaces com eficiência.</p>
@@ -115,7 +116,7 @@
   </article>
 
   <article id="project" class="section" aria-labelledby="contact" data-scroll="section">
-    <h2 class="Subtitulo">meu projetos</h2>
+    <h2 class="subtitulo">meu projetos</h2>
     <section class="project-conatiner container">
       <div class="project-box">
         <div class="project-boxs">
@@ -154,7 +155,7 @@
   </article>
 
   <form action="" id="contact" class="form section" data-scroll="section">
-    <h2 class="Subtitulo">contato</h2>
+    <h2 class="subtitulo">contato</h2>
     <div class="contact-box container">
       <p class="font-int-r-1 ">Se você deseja entrar em contato, por favor, preencha o formulário abaixo. Farei o possível para responder o mais rápido possível. Estou ansioso para conversar com você em breve!</p>
       <div class="field ">

@@ -1,15 +1,9 @@
 #header {
-  padding: 150px 0;
+  padding: 20px 0 150px 0;
 }
-.header-content {
-  position: fixed;
-  top: -1px;
-  left: 0;
-  right: 0;
-  z-index: 3300;
-  margin: 0 auto;
-  height: 10vw;
-  padding: 20px 0;
+.header-img {
+  margin-left: 20px;
+  animation: showLeft 0.3s forwards;
 }
 .header-menu {
   display: flex;
@@ -105,10 +99,6 @@
   }
 }
 @media (max-width: 600px) {
-  #header .header-content li {
-    padding: 5px 0;
-  }
-
   #header .header-content li a {
     font-size: 0.875rem;
   }

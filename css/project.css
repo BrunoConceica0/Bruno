@@ -43,6 +43,7 @@
   border-radius: 15px 15px 0 0;
   object-fit: cover;
   object-position: center;
+  height: 270px;
 }
 .project-site {
   height: auto;
@@ -55,11 +56,12 @@
 .project-links ul {
   display: flex;
   justify-content: space-evenly;
+  gap: 10px;
 }
 
 .project-links li a {
   display: inline-block;
-  margin-top: 35px;
+  margin: 35px 0 20px 0;
 }
 
 .project-inf::before {
@@ -77,13 +79,16 @@
   height: 299px;
   position: absolute;
 }
-@media (max-width: 850px) {
+@media (max-width: 890px) {
+  #project .project-site img {
+    height: auto;
+  }
   .project-box {
     grid-template-columns: 1fr;
   }
   .project-links ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-bottom: 30px;
   }
 }

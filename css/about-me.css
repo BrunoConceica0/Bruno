@@ -14,14 +14,13 @@
 }
 .about__me-box p {
   margin-bottom: 50px;
-  display: flex;
   color: var(--cor-texto);
+  text-align: justify;
+  margin-right: 40px;
 }
 .img-foto {
   display: flex;
-  object-fit: cover;
-  position: center;
-  justify-content: center;
+  justify-content: end;
   z-index: 3;
 }
 .about__me-box::before {
@@ -33,10 +32,6 @@
   position: absolute;
   right: 75px;
   bottom: 80px;
-}
-.img-foto img {
-  object-fit: cover;
-  object-fit: cover;
 }
 @media (max-width: 1080px) {
   .img-foto img {
@@ -51,6 +46,9 @@
 @media (max-width: 850px) {
   .about__me-container {
     grid-template-columns: 1fr;
+  }
+  .img-foto {
+    justify-content: center;
   }
   .img-foto img {
     border-radius: 50%;
