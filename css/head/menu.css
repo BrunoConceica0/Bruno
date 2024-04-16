@@ -27,7 +27,7 @@
     box-shadow: 0 4px currentColor, 0 -4px currentColor;
     margin-right: 5px;
     top: 0;
-    transition: 0.3s;
+    transition: 0.5s;
   }
   [data-button="lista"] {
     flex-direction: column;

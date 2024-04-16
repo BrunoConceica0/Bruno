@@ -7,18 +7,20 @@
 // usando o window.scrollTo, usando este metódo use so paramentros de top para topo do sections e  behavior: "smooth",
 
 export default function initScrollSuave() {
-  const linksInternos = document.querySelectorAll('a[href^="#"]');
-  function animeScroll(event) {
+  const sections = document.querySelectorAll('[href^="#"]');
+
+  function scrollClick(event) {
     event.preventDefault();
     const href = this.getAttribute("href");
     const section = document.querySelector(href);
-    const top = section.offsetTop;
-    window.scrollTo({
-      top: top,
+    const sectionTop = section.offsetTop;
+    window.scroll({
+      top: sectionTop,
       behavior: "smooth",
     });
   }
-  linksInternos.forEach((link) => {
-    link.addEventListener("click", animeScroll);
+
+  sections.forEach((section) => {
+    section.addEventListener("click", scrollClick);
   });
 }

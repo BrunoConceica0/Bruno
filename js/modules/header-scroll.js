@@ -7,7 +7,7 @@ export default function initHeaderScroll() {
   function scrollingHeader() {
     const options = {
       root: null,
-      threshold: 0.4,
+      threshold: 0,
       marginTop: "0",
     };
     const observer = new IntersectionObserver(function (entries) {

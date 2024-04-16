@@ -31,4 +31,7 @@ img[src$=".png"] {
   body {
     padding: 0 10px;
   }
+  .container {
+    padding: 90px 0 70px 0;
+  }
 }

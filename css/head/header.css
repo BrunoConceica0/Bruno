@@ -23,7 +23,9 @@
   color: var(--cor-subtitulo);
   text-transform: capitalize;
 }
-
+.header-content {
+  padding: 40px 0 100px 0;
+}
 #header .header-content li a {
   text-transform: uppercase;
   color: var(--cor-subtitulo);
@@ -105,8 +107,8 @@
 }
 
 @media (max-width: 450px) {
-  #header {
-    padding: 30px 0 30px 0;
+  .header-content {
+    padding: 20px 0px 40px 0px;
   }
 
   .links-extremos span {

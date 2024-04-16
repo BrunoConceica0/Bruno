@@ -18,6 +18,4 @@ function animeScroll() {
     }
   });
 }
-console.log("OIE")
-
 window.addEventListener("scroll", animeScroll);
