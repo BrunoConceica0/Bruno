@@ -1,6 +1,6 @@
 .about__me-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1.2fr;
   position: relative;
   align-items: center;
 }
@@ -16,7 +16,6 @@
   margin-bottom: 50px;
   color: var(--cor-texto);
   text-align: justify;
-  margin-right: 40px;
 }
 .img-foto {
   display: flex;
@@ -34,6 +33,9 @@
   bottom: 80px;
 }
 @media (max-width: 1080px) {
+  .about__me-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
   .img-foto img {
     display: flex;
     width: 25vh;
